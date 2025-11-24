@@ -12,3 +12,5 @@
 
 - **Beware of temporary code**: Remove debugging temporary code without fail
 - Remove legacy code: Delete unused code immediately
+- Keep structure clean
+- Write comments for complex logic
