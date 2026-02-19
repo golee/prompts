@@ -29,6 +29,10 @@
 - Prohibit eslint-disable and ts-ignore comments
   - Consult with code reviewer beforehand if unavoidable
 - Do not ignore warnings
+- Integrity first: Never write code that hides contract violations or human errors
+  - Examples to avoid: silent fallback defaults, implicit normalize that masks invalid input, or auto-correction without explicit policy
+- `fallback` and `normalize` are allowed only when the use case is explicitly justified by technical requirements or product policy
+  - The reason and expected behavior must be clear in code and/or comments
 - React
   - Avoid overusing useEffect
   - Specify dependency arrays accurately
