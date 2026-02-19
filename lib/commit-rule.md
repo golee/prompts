@@ -2,7 +2,7 @@
 
 ## Commit Granularity
 
-- Prefer splitting commits by logical unit so the history is easy to follow.
+- Commit in units that tell a coherent story — a reader should be able to follow the context and intent by reading commits in order.
 - Avoid mixing unrelated changes (e.g. feature + refactor) in one commit when reasonably separable.
 
 ## Message Rules
